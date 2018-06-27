@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Score Counter
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="TeamA">
+    <h1>Team B</h1>
+      
+        
+            
+              <ion-label>{{score1}}</ion-label>
+              <button ion-button color="orange" (click)="onClickthree()">+3 POINTS</button> <br>
+              <button ion-button color="orange"(click)="onClicktwo()">+2 POINTS</button> <br>
+              <button ion-button color="orange" (click)="onClickthrow()">FREE THROW</button> <br>
+    
+            
+  </div>
+
+
+          <div class=TeamB>
+            <h1>Team A</h1>
+            <ion-label>{{score2}}</ion-label>
+            <button ion-button color = "orange" (click)="onClickthee()">+3 POINTS</button><br> 
+            <button ion-button color="orange" (click)="onClicktoo()">+2 POINTS</button><br>     
+             <button ion-button color="orange" (click)="onClickthow()">FREE THROW</button><br>  
+          </div>
+          
+           
+        
+
+            <button id="btn" ion-button color="orange" (click)="onClickReset()">Reset</button>
+</ion-content> 
+
+
+
+
+
+
+
